@@ -24,3 +24,11 @@ function multiply(a, b){
  return return a * b
 }
 ```
+
+## Education
+* JavaScript Manual on learnjavascript.ru 
+* Loft School (Basics of web-development)
+
+## Languages
+* Russian - native
+* English - C1
