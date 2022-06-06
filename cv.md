@@ -18,3 +18,9 @@ and open-minded.
 * React JS (Basics)
 * Git, GitHub
 
+ ## Code
+```
+function multiply(a, b){
+ return return a * b
+}
+```
