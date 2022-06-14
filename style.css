@@ -146,6 +146,7 @@ h3 {
     border-bottom: 1px solid rgb(250, 248, 234);
     margin: 10px 0;
     padding: 10px 0;
+    list-style: square;
 }
 
 .education__item,
@@ -169,6 +170,7 @@ h3 {
 
 .skills__list {
     padding-top: 15px;
+    list-style: square;
 }
 
 .skills__item {
