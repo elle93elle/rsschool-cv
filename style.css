@@ -147,3 +147,36 @@ h3 {
     margin: 10px 0;
     padding: 10px 0;
 }
+
+.education__item,
+.languages__item {
+    padding-bottom: 5px;
+}
+
+.skills-code {
+    display: flex;
+    gap: 60px;
+    margin: 30px 90px;
+}
+
+.skills {
+    width: 20%;
+}
+
+.code {
+    width: 80%;
+}
+
+.skills__list {
+    padding-top: 15px;
+}
+
+.skills__item {
+    padding-bottom: 5px;
+}
+
+.skills__title::before,
+.code__title::before {
+    background-color: rgb(250, 248, 234);
+}
+
