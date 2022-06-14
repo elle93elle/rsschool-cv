@@ -176,8 +176,13 @@ h3 {
 }
 
 .skills__title::before,
-.code__title::before {
+.code__title::before,
+.project__title::before {
     background-color: rgb(250, 248, 234);
+}
+
+.project {
+    margin: 30px 90px;
 }
 
 .contacts {
@@ -205,4 +210,22 @@ h3 {
     gap: 10px;
     align-items: center;
     padding: 5px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
