@@ -180,3 +180,29 @@ h3 {
     background-color: rgb(250, 248, 234);
 }
 
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 60px;
+    padding: 20px;
+    background-color: rgb(250, 248, 234);
+    color: #1E1D1E;
+    margin-bottom: 30px;
+}
+
+
+.contacts__list {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.contacts__item {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px;
+}
