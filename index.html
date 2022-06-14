@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arsenal:wght@400;700&family=League+Gothic&family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>CV</title>
+</head>
+
+<body>
+  <div class="container">
+  <header class="header">
+      <nav class="header__content">
+        <ul class="header__list">
+          <li class="header__item"><a href="#about">About</a></li>
+          <li class="header__item"><a href="#skills">Skills</a></li>
+          <li class="header__item"><a href="#code">Code</a></li>
+          <li class="header__item"><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+  </header>
+  <main>
+  <div class="about" id="about">
+  <h1 class="about__name">Elina Rakhmankulova</h1>
+  <div class="about__profession">Front-end developer</div>
+  <div class="about__photo">
+    <img src="./photo.jpg" alt="photo">
+  </div>
+  <div class="about__content">
+    <h2 class="about__title title">About me</h2>
+    <p>
+      My name is Elina, I am 29 years old. I've decided to take a risk and to chage my job career. So now I am on my way to become a front-end developer. 
+      I love studying,learning new and I am extremely hard-working person. So I believe my personality will help me to achieve my goal to become a developer faster.
+    </p>
+    <div class="about__extra-info">
+      <div class="about__extra-info_left">
+      <div class="about__education education">
+        <h3 class="about__subtitle">Education</h3>
+        <ul class="education__list">
+          <li class="education__item">Bashkir State Medical University</li>
+          <li class="education__item">Innopolis "Front-end Basics"</li>
+          <li class="education__item">Loft School HTML/CSS</li>
+        </ul>
+      </div>
+    </div>
+    <div class="about__extra-info_right">
+      <div class="about__languages languages" >
+        <h3 class="about__lang">Languages</h3>
+        <ul class="languages__list">
+          <li class="languages__item">Russian - native</li>
+          <li class="languages__item">English - C1</li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </div>
+    </div>
+    <div class="skills-code">
+    <div class="skills" id="skills">
+      <h2 class="skills__title title">Skills</h2>
+      <ul class="skills__list">
+        <li class="skills__item">HTML</li>
+        <li class="skills__item">CSS</li>
+        <li class="skills__item">SASS</li>
+        <li class="skills__item">JavaScript</li>
+        <li class="skills__item">GitHub</li>
+        <li class="skills__item">Figma</li>
+    </ul>
+    </div>
+    <div class="code" id="code">
+      <h3 class="code__title title">Code</h3>
+      <pre>
+      <code>
+        function duplicateEncode(word) {
+          return word
+                  .toLowerCase()
+                  .split('')
+                  .map(function(item,index,arr) {
+                     return arr.indexOf(item) == arr.lastIndexOf(item) ? '(' : ')';
+                  })
+                  .join('')
+          }
+      </code>
+      </pre>
+    </div>
+  </div>
+  <div class="project">
+    <h3 class="project__title title"> project</h3>
+    <p>Here is one of my projects <b><a href="https://elle93elle.github.io/cssMemSlider/cssMemSlider/" title="click me">"CSS-meme slider"</a></b></p>
+    <a href=""></a>
+  </div>
+  <div class="contacts" id="contacts">
+    <h3 class="contacts__title title">Contacts</h3>
+    <ul class="contacts__list">
+      <li class="contacts__item">
+        <img src="./icons/phone.svg" class="icon" alt="Phone Icon">
+        <p>+7 927 232 64 08</p>
+      </li>
+      <li class="contacts__item">
+        <img src="./icons/email.svg" class="icon" alt="Email Icon">
+        <p>elle93elle@gmail.com</p>
+      </li>
+      <li class="contacts__item">
+        <img src="./icons/telegram.svg" class="icon" alt="Telegram Icon">
+        <p>@elle93elle</p>
+      </li>
+    </ul>
+  </div>
+  </main>
+  <footer class="footer">
+    <a class="github" href="https://github.com/elle93elle">
+      <img class="github-icon" src="./icons/github.svg" alt="Github" width="26" height="26">
+      <p>Visit my GitHub</p>
+    </a>
+    <p>Created in 2022</p>
+    <a href="https://rs.school/js/">
+      <img src="./icons/rsschool.svg" alt="Rsschool Icon" width="73" height="26">
+    </a>
+  </footer>
+  </div>
+</body>
+
+</html>
